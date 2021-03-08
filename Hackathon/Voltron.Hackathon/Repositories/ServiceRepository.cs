@@ -23,5 +23,10 @@ namespace Voltron.Hackathon.Repositories
             return await _context.Services.ToListAsync();
         }
 
+        public async Task<ServiceEntity> GetServiceDetailsAsync(int id)
+        {
+            return await _context.Services.Where(x => x.Id == id).FirstOrDefaultAsync();
+        }
+
     }
 }

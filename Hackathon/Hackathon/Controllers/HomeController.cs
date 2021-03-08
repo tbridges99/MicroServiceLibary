@@ -26,8 +26,9 @@ namespace Hackathon.Controllers
         {
             return View(new ServiceDTO());
         }
-        public IActionResult Detail(int id)
+        public async Task<IActionResult> Detail(int id)
         {
+            var serviceInfo = await _serviceClient.GetServiceDetailsAsync(id);
             return View(new ServiceDTO { Name= "Covid Tracker API Service" });
         }
         public IActionResult JWT()

@@ -7,5 +7,6 @@ namespace Hackathon.ServiceClients
     public interface IHackathonServiceClient
     {
         Task<List<ServiceDTO>> GetServicesAsync(string keywords);
+        Task<ServiceDTO> GetServiceDetailsAsync(int id);
     }
 }

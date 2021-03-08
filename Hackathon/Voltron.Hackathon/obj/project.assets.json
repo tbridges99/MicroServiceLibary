@@ -12210,19 +12210,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eneff\\.nuget\\packages\\": {}
+    "C:\\Users\\opelc\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eneff\\source\\repos\\MicroServiceLibary\\Hackathon\\Voltron.Hackathon\\Voltron.Hackathon.csproj",
+      "projectUniqueName": "C:\\__temp\\MicroServiceLibary-eneff-work\\Hackathon\\Voltron.Hackathon\\Voltron.Hackathon.csproj",
       "projectName": "Voltron.Hackathon",
-      "projectPath": "C:\\Users\\eneff\\source\\repos\\MicroServiceLibary\\Hackathon\\Voltron.Hackathon\\Voltron.Hackathon.csproj",
-      "packagesPath": "C:\\Users\\eneff\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eneff\\source\\repos\\MicroServiceLibary\\Hackathon\\Voltron.Hackathon\\obj\\",
+      "projectPath": "C:\\__temp\\MicroServiceLibary-eneff-work\\Hackathon\\Voltron.Hackathon\\Voltron.Hackathon.csproj",
+      "packagesPath": "C:\\Users\\opelc\\.nuget\\packages\\",
+      "outputPath": "C:\\__temp\\MicroServiceLibary-eneff-work\\Hackathon\\Voltron.Hackathon\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\eneff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\opelc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

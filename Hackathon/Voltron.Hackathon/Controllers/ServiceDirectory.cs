@@ -32,5 +32,12 @@ namespace Voltron.Hackathon.Controllers
             var services = await _repo.GetServicesAsync("");
             return Ok(services);
         }
+
+        [HttpGet("GetDetails/{id}")]
+        public async Task<IActionResult> GetDetails(int id)
+        {
+            var serviceDetails = await _repo.GetServiceDetailsAsync(id);
+            return Ok(serviceDetails);
+        }
     }
 }

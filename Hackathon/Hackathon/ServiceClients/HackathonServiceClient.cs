@@ -28,5 +28,19 @@ namespace Hackathon.ServiceClients
             }
             return new List<ServiceDTO>();
         }
+
+        public async Task<ServiceDTO> GetServiceDetailsAsync(int id)
+        {
+            var url = $"{baseURL}/ServiceDirectory/GetDetails/{id}";
+
+            var request = new HttpRequestMessage(HttpMethod.Get, url);
+            var response = await client.SendAsync(request);
+            if (response.IsSuccessStatusCode)
+            {
+                var results = await response.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<ServiceDTO>(results);
+            }
+            return new ServiceDTO();
+        }
     }
 }

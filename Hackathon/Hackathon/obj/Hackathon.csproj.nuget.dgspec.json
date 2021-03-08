@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eneff\\source\\repos\\MicroServiceLibary\\Hackathon\\Hackathon\\Hackathon.csproj": {}
+    "C:\\__temp\\MicroServiceLibary-eneff-work\\Hackathon\\Hackathon\\Hackathon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eneff\\source\\repos\\MicroServiceLibary\\Hackathon\\Hackathon\\Hackathon.csproj": {
+    "C:\\__temp\\MicroServiceLibary-eneff-work\\Hackathon\\Hackathon\\Hackathon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eneff\\source\\repos\\MicroServiceLibary\\Hackathon\\Hackathon\\Hackathon.csproj",
+        "projectUniqueName": "C:\\__temp\\MicroServiceLibary-eneff-work\\Hackathon\\Hackathon\\Hackathon.csproj",
         "projectName": "Hackathon",
-        "projectPath": "C:\\Users\\eneff\\source\\repos\\MicroServiceLibary\\Hackathon\\Hackathon\\Hackathon.csproj",
-        "packagesPath": "C:\\Users\\eneff\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eneff\\source\\repos\\MicroServiceLibary\\Hackathon\\Hackathon\\obj\\",
+        "projectPath": "C:\\__temp\\MicroServiceLibary-eneff-work\\Hackathon\\Hackathon\\Hackathon.csproj",
+        "packagesPath": "C:\\Users\\opelc\\.nuget\\packages\\",
+        "outputPath": "C:\\__temp\\MicroServiceLibary-eneff-work\\Hackathon\\Hackathon\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\eneff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\opelc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
