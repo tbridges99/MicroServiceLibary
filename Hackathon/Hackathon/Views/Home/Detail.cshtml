@@ -11,49 +11,49 @@
             <div class="col">Development URL</div>
             <div class="col">
                 <div class="input-group">
-                    <input class="form-control" type="text" id="devurl" name="devurl" placeholder="enter Development URL" title="enter Development URL">
+                    <input class="form-control" type="text" id="devurl" name="devurl" placeholder="enter Development URL" title="enter Development URL" value="@Model.DevURL" >
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col">Name</div>
-            <div class="col"><input class="form-control" type="text" id="name" name="name" placeholder="enter Name" title="enter Name"></div>
+            <div class="col"><input class="form-control" type="text" id="name" name="name" placeholder="enter Name" title="enter Name" value="@Model.Name"></div>
         </div>
         <div class="row">
             <div class="col">Description</div>
-            <div class="col"><input class="form-control" type="text" id="description" name="description" placeholder="enter Description" title="enter Description"></div>
+            <div class="col"><input class="form-control" type="text" id="description" name="description" placeholder="enter Description" title="enter Description" value="@Model.Description"></div>
         </div>
         <div class="row">
             <div class="col">QA Url</div>
-            <div class="col"><input class="form-control" type="text" id="qaurl" name="qaurl" placeholder="enter QA URL" title="enter QA URL"></div>
+            <div class="col"><input class="form-control" type="text" id="qaurl" name="qaurl" placeholder="enter QA URL" title="enter QA URL" value="@Model.QAURL"></div>
         </div>
         <div class="row">
             <div class="col">Is Legacy</div>
-            <div class="col"><input class="form-control" type="checkbox" id="islegacy" name="islegacy"></div>
+            <div class="col"><input class="form-control" type="checkbox" id="islegacy" name="islegacy" checked="@Model.IsLegacy"></div>
         </div>
         <div class="row">
             <div class="col">Is Generated</div>
-            <div class="col"><input class="form-control" type="checkbox" id="isgenerated" name="isgenerated"></div>
+            <div class="col"><input class="form-control" type="checkbox" id="isgenerated" name="isgenerated" checked="@Model.IsGenerated"></div>
         </div>
         <div class="row">
             <div class="col">Team</div>
-            <div class="col"><input class="form-control" type="text" id="team" name="team" placeholder="enter Team" title="enter Team"></div>
+            <div class="col"><input class="form-control" type="text" id="team" name="team" placeholder="enter Team" title="enter Team" value="@Model.Team"></div>
         </div>
         <div class="row">
             <div class="col">Contact</div>
-            <div class="col"><input class="form-control" type="text" id="contact" name="contact" placeholder="enter Contact" title="enter Contact"></div>
+            <div class="col"><input class="form-control" type="text" id="contact" name="contact" placeholder="enter Contact" title="enter Contact" value="@Model.Contact"></div>
         </div>
         <div class="row">
             <div class="col">Email</div>
-            <div class="col"><input class="form-control" type="text" id="email" name="email" placeholder="enter Email" title="enter Email"></div>
+            <div class="col"><input class="form-control" type="text" id="email" name="email" placeholder="enter Email" title="enter Email" value="@Model.Email"></div>
         </div>
         <div class="row">
             <div class="col">Current Version</div>
-            <div class="col"><input class="form-control" type="text" id="currentversion" name="currentversion" placeholder="enter Current Version" title="enter Current Version"></div>
+            <div class="col"><input class="form-control" type="text" id="currentversion" name="currentversion" placeholder="enter Current Version" title="enter Current Version" value="@Model.CurrentVersion"></div>
         </div>
         <div class="row">
             <div class="col">JWT Required</div>
-            <div class="col"><input class="form-control" type="checkbox" id="isjwt" name="isjwt"></div>
+            <div class="col"><input class="form-control" type="checkbox" id="isjwt" name="isjwt" checked="@Model.IsJwt"></div>
         </div>
     </div>
 
@@ -67,4 +67,14 @@
             </div>
         </div>
     </div>
+
+    @if (Model.IsJwt)
+    {
+        <div class="col-12">
+            <hr />
+            <div class="row">
+                <div class="col">JWT Generation</div>
+            </div>
+        </div>
+    }
 </div>
