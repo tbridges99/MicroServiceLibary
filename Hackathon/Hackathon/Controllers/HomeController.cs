@@ -24,11 +24,11 @@ namespace Hackathon.Controllers
         }
         public IActionResult Add()
         {
-            return View();
+            return View(new ServiceDTO());
         }
         public IActionResult Detail(int id)
         {
-            return View();
+            return View(new ServiceDTO { Name= "Covid Tracker API Service" });
         }
         public IActionResult JWT()
         {

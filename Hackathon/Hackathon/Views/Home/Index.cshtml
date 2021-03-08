@@ -3,22 +3,30 @@
     ViewData["Title"] = "BHHC Service Directory";
 }
 
-<div class="row">
-    <div class="col-md-3">
-        <h2>Search</h2>
-    </div>
-</div>
-<div class="row">
-    @foreach (var dto in Model)
-    {
+<div class="container">
+    <div class="row">
         <div class="col-md-3">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">@dto.Name</h5>
-                    <p class="card-text">@dto.Description</p>
-                    <a href="#" class="btn btn-primary">@dto.DevURL</a>
-                </div>
+            <h2>Search</h2>
+            <div class="input-group">
+                <input class="form-control" type="text" id="search" name="search" placeholder="enter Search Term(s)" title="enter Search Term(s)">
+                <span class="input-group-btn">
+                    <button class="btn btn-secondary">Search</button>
+                </span>
             </div>
         </div>
-    }
+    </div>
+    <div class="row">
+        @foreach (var dto in Model)
+        {
+            <div class="col-md-3" style="padding-bottom: 6px;">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@dto.Name</h5>
+                        <p class="card-text">@dto.Description</p>
+                        @Html.ActionLink(dto.DevURL, "Detail", "Home", new { id=dto.Id }, new { @class="btn btn-primary" })
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>

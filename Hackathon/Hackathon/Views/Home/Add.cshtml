@@ -1,7 +1,73 @@
-﻿
+﻿@model ServiceDTO
 @{
-    ViewData["Title"] = "Add";
+    ViewData["Title"] = "Add a new Service Entry";
 }
 
-<h2>Add</h2>
+<h2>Add a new Service Entry</h2>
 
+<div class="row">
+    <div class="col">
+        <div class="row">
+            <div class="col">Development URL</div>
+            <div class="col">
+                <div class="input-group">
+                    <input class="form-control" type="text" id="devurl" name="devurl" placeholder="enter Development URL" title="enter Development URL">
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary">Load</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">Name</div>
+            <div class="col"><input class="form-control" type="text" id="name" name="name" placeholder="enter Name" title="enter Name"></div>
+        </div>
+        <div class="row">
+            <div class="col">Description</div>
+            <div class="col"><input class="form-control" type="text" id="description" name="description" placeholder="enter Description" title="enter Description"></div>
+        </div>
+        <div class="row">
+            <div class="col">QA Url</div>
+            <div class="col"><input class="form-control" type="text" id="qaurl" name="qaurl" placeholder="enter QA URL" title="enter QA URL"></div>
+        </div>
+        <div class="row">
+            <div class="col">Is Legacy</div>
+            <div class="col"><input class="form-control" type="checkbox" id="islegacy" name="islegacy"></div>
+        </div>
+        <div class="row">
+            <div class="col">Is Generated</div>
+            <div class="col"><input class="form-control" type="checkbox" id="isgenerated" name="isgenerated"></div>
+        </div>
+        <div class="row">
+            <div class="col">Team</div>
+            <div class="col"><input class="form-control" type="text" id="team" name="team" placeholder="enter Team" title="enter Team"></div>
+        </div>
+        <div class="row">
+            <div class="col">Contact</div>
+            <div class="col"><input class="form-control" type="text" id="contact" name="contact" placeholder="enter Contact" title="enter Contact"></div>
+        </div>
+        <div class="row">
+            <div class="col">Email</div>
+            <div class="col"><input class="form-control" type="text" id="email" name="email" placeholder="enter Email" title="enter Email"></div>
+        </div>
+        <div class="row">
+            <div class="col">Current Version</div>
+            <div class="col"><input class="form-control" type="text" id="currentversion" name="currentversion" placeholder="enter Current Version" title="enter Current Version"></div>
+        </div>
+        <div class="row">
+            <div class="col">JWT Required</div>
+            <div class="col"><input class="form-control" type="checkbox" id="isjwt" name="isjwt"></div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="row">
+            <div class="col">Keywords</div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <textarea class="form-control" type="textarea" id="keywords" name="keywords" placeholder="" title="" rows="18"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
