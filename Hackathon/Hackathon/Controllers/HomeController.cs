@@ -1,4 +1,5 @@
 ﻿using Hackathon.Models;
+using Hackathon.ServiceClients;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,16 @@ namespace Hackathon.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly IHackathonServiceClient _serviceClient;
+        public HomeController(IHackathonServiceClient serviceClient)
         {
-            return View();
+            _serviceClient = serviceClient;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var services = await _serviceClient.GetServicesAsync("");
+            return View(services);
         }
         public IActionResult Add()
         {

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Kqj6z1avVg/0vWssyyT5EvkB/qNUVzcKffAL4Sqp2T71BdbvJDHAxCIyNPcKuBoxAXoWNkg5m9uKElWDpiraZQ==",
+  "dgSpecHash": "A5cB6asHuL78hJnXAc7nlsUSTgmgANqGSigiZfAcofKLvg7zIWDMckGfDt6BBN/atadAMbqgJVgTyzD1a3Lm3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\eneff\\source\\repos\\MicroServiceLibary\\Hackathon\\Hackathon\\Hackathon.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\eneff\\.nuget\\packages\\autofac\\4.2.0\\autofac.4.2.0.nupkg.sha512",
+    "C:\\Users\\eneff\\.nuget\\packages\\autofac.extensions.dependencyinjection\\4.2.2\\autofac.extensions.dependencyinjection.4.2.2.nupkg.sha512",
     "C:\\Users\\eneff\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\eneff\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",
     "C:\\Users\\eneff\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
@@ -212,6 +214,7 @@
     "C:\\Users\\eneff\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
     "C:\\Users\\eneff\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "C:\\Users\\eneff\\.nuget\\packages\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
+    "C:\\Users\\eneff\\.nuget\\packages\\system.componentmodel\\4.0.1\\system.componentmodel.4.0.1.nupkg.sha512",
     "C:\\Users\\eneff\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
     "C:\\Users\\eneff\\.nuget\\packages\\system.composition\\1.0.31\\system.composition.1.0.31.nupkg.sha512",
     "C:\\Users\\eneff\\.nuget\\packages\\system.composition.attributedmodel\\1.0.31\\system.composition.attributedmodel.1.0.31.nupkg.sha512",
