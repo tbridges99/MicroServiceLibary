@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Voltron.Hackathon</name>
+    </assembly>
+    <members>
+        <member name="M:Voltron.Hackathon.Context.SqlConnectionFactory.#ctor(System.String)">
+            <summary>
+            Constuructor
+            </summary>
+            <param name="connectionString"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Voltron.Hackathon.Context.SqlConnectionFactory.OpenConnection" -->
+        <member name="M:Voltron.Hackathon.Context.SqlConnectionFactory.Dispose">
+            <summary>
+            Disposes
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Voltron.Hackathon.Context.SqlConnectionFactory.CloseConnection" -->
+        <member name="T:Voltron.Hackathon.Controllers.ServiceDirectory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Voltron.Hackathon.Controllers.ServiceDirectory.Index">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
